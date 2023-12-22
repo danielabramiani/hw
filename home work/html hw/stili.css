@@ -1,0 +1,16 @@
+h1,h2,h3,h4{
+    text-align: center;
+    font-size: larger;
+    background-color: gray;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace ;
+    font-style: oblique;
+    font-weight: 900;
+  }
+  p{
+      font-size: medium;
+      background-color: gray;
+      color: aliceblue;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 600;
+  }
