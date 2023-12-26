@@ -1,7 +1,10 @@
-nav{
+nav,ul{
     color: aquamarine;
+    font-family: fantasy;
+    font-weight: 200;
 }
-h1{
+h1,h2{
     color: rgb(70, 74, 120);
-    background-color: aliceblue;
+    font-family: fantasy;
+    font-weight: 200;
 }
