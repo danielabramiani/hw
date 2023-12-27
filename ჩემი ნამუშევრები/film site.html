@@ -13,31 +13,29 @@
     <header>
         <h1>Abjara.Dani</h1>
     </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="https://www.facebook.com/daniel.abramiani">Contact</a>
-    </nav>
-
     <nav class="n">
+        <a href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="https://www.facebook.com/daniel.abramiani">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Genres</button>
+            <div class="dropdown-content">
+                <a href="#">Horror</a>
+                <a href="#">Comedy</a>
+                <a href="#">Romance</a>
+                <a href="#">Detective</a>
+                <a href="#">Mystery</a>
+                <a href="#">Anime</a>
+            </div>
+        </div>
         <div class="search-bar">
             <input type="text" placeholder="Search">
-            <div class="dropdown">
-                <button class="dropbtn">Genres</button>
-                <div class="dropdown-content">
-                    <a href="#">Scary</a>
-                    <a href="#">Family</a>
-                    <a href="#">Comedy</a>
-                    <a href="#">Fantasy</a>
-                </div>
-            </div>
         </div>
     </nav>
 
     <div class="container">
         <div class="featured-film">
-            <h2>New Film On Site</h2>
+            <h2 id="Home">Will Be On Site Soon</h2>
             <center><img src="MV5BNzFkN2VlZWYtNWIyMS00NGI4LThiOWQtNjBkZDQ1YmMzNTQ3L2ltYWdlXkEyXkFqcGdeQXVyNjkwNzE0ODU@._V1_.jpg"
                     alt="Featured Film"></center>
         </div>
@@ -58,7 +56,8 @@
 
             <!-- Film 2 -->
             <div class="film-card">
-                <img src="scary movie.jpg" alt="Film 2">
+                <img src="scary movie.jpg"="Film 2">
+                <center><a class=ani href="https://www.youtube.com/watch?v=fwGdRLs8mPY"> Watch</a></center>
                 <div class="film-info">
                     <h3>Scary Movie</h3>
                     <p>Genres: Comedy, Drama, Fantasy</p>
@@ -70,6 +69,7 @@
             <!-- Film 3 -->
             <div class="film-card">
                 <img src="230599_GROWN UPS _2010_1400x2100_English.jpg" alt="Grown Ups">
+                <center><a class="ani" href="https://hd-rezka.app/32682-odnoklassniki.html">Watch</a></center>
                 <div class="film-info">
                     <h3>Grown Ups</h3>
                     <p>Genres: Comedy, Drama, Family</p>
@@ -137,6 +137,7 @@
             <!-- Film 9 -->
             <div class="film-card">
                 <img src="s.jpg" alt="Film 9">
+                <center><a class="ani"href ="https://mu.baskino.website/komedii/722-pritvoris-moej-zhenoj.html">Watch</a></center>
                 <div class="film-info">
                     <h3>Just Go With It</h3>
                     <p>Genres: Comedy, Romance</p>
@@ -178,7 +179,7 @@
             </div>
         </div>
   
-    <p>About: Welcome to our vibrant film portal,<br> where the magic of cinema comes to life!<br>
+    <p id="about">About: Welcome to our vibrant film portal,<br> where the magic of cinema comes to life!<br>
          Immerse yourself in a world
         of storytelling, emotion,<br>
         and creativity as you explore<br> our meticulously curated film site.
