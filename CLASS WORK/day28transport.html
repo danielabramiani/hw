@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day28transport.css">
+    <title>Lulini Transport</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="328244940_1245404506322551_1710421945845404134_n.jpg" alt="goa logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mini">minivan1</a></li>
+                <li><a href="#mini2">minivan2</a></li>
+                <li><a href="https://www.facebook.com/Luka.Tskhvaradze">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <h1><strong>Best Locations</strong><br>For The First Time Travel</h1>
+    <br>
+    <br>
+    <section>
+        <h2 id="home">Welcome to Lulini Transport</h2>
+        <p>
+            We are dedicated to providing high-quality products and services to our customers.
+            Explore our website to learn more about our brand and discover the latest offerings.
+        </p>
+        <p><strong>CEO</strong> Luka Tskhvaradze</p>
+
+        <button onclick="changeBackgroundColor()">Change Background Color</button>
+    </section>
+
+    <div class="film-card">
+        <img id="mini" src="b24_grke3_fl1_01h5_a.png" alt="minivan1">
+        <div class="film-info">
+            <h3>Toyota minivan 2024</h3>
+            <p class="toy">the 2024 Sienna minivan is up for any adventure.<br>
+                 Available with All-Wheel-Drive and in 7 or 8 passenger models.</p>
+        </div>
+    </div>
+
+    <div class="film-card">
+        <img  id="mini2"   src="2022-Toyota-Sienna-front_44007_032_1840x820_3T3_cropped.avif" alt="Minivan2">
+        <div class="film-info">
+            <h3>Toyota MInivan 2022</h3>
+            <p>The general masses have made it clear that they want crossover SUVs even when minivans make more sense.<br>
+                Those boxy beasts of burden are the superior way to transport people and things, and yet many drivers continue <br>
+                clinging to the belief that they need an SUV’s <br>
+               extra half-inch of ground clearance or plastic body mouldings to navigate the gravel laneway to the cottage.<br> </p>
+        </div>
+    </div>
+
+    <script>
+        function changeBackgroundColor() {
+            var body = document.body;
+
+            var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+
+            body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>

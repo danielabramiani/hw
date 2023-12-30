@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    transition: background-color 0.5s ease; 
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffffff;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #41e600;
+    color: white;
+}
+
+button {
+    background-color: #06d039;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header {
+    background-color: #156b01;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 10px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #0091ff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff; 
+}
+#mini,#mini2{
+    width: 100px;
+}
+h1{
+    color: rgb(0, 140, 255);
+    font-style: italic;
+    text-align: center;
+}
