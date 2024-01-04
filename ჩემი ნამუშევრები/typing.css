@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     display: flex;
@@ -17,17 +17,18 @@ body {
 }
 
 #text-container {
-    margin-bottom: 20px;
-}
-
-textarea {
-    width: 100%;
-    padding: 10px;
     margin-bottom: 40px;
 }
 
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: #fff;
+    background-color: #45a049;
+}
 button {
-    background-color: #4caf50;
+    background-color: #45a049;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -36,9 +37,9 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #96d399;
 }
 
 #results {
     font-size: 16px;
-}
+} 
